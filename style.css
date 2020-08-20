@@ -1,0 +1,177 @@
+.img1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#module {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#module #collapseExample.collapse:not(.show) {
+  display: block;
+  height: 3rem;
+  overflow: hidden;
+}
+
+#module #collapseExample.collapsing {
+  height: 3rem;
+}
+
+#module a.collapsed:after {
+  content: "+ Show More";
+}
+
+#module a:not(.collapsed):after {
+  content: "- Show Less";
+}
+
+.center {
+  text-align: center;
+}
+.mar {
+  margin-top: 20px;
+}
+.container1 {
+  background-color: green;
+}
+.imgBack {
+  width: 1600px;
+  height: 500px;
+}
+.size {
+  width: 300px;
+  height: 250px;
+}
+.boxes {
+  display: flex;
+  /* background-color: black; */
+}
+.margin {
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.margin1 {
+  margin: 30px;
+}
+.mar1 {
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.services {
+  background-color: green;
+}
+.mari {
+  color: white;
+  /* margin-top: 70px; */
+}
+.lastPage {
+  background-color: black;
+  height: 300px;
+}
+.middle {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  color: white;
+}
+.color {
+  color: black;
+}
+.images {
+  margin-top: 30px;
+  margin-left: 270px;
+  /* margin-bottom: 50px; */
+  display: flex;
+}
+.img1 {
+  margin: 0px 10px 10px;
+}
+
+.part {
+  display: flex;
+  margin-left: 400px;
+}
+.box2 {
+  margin: 20px;
+}
+.l1 {
+  color: white;
+}
+.text-block {
+  position: absolute;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* media queries for making responsive website */
+
+@media screen and (max-width: 400px) {
+  .mar1 {
+    /* margin-top: 5px; */
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: center;
+  }
+  .part {
+    display: grid;
+    margin-left: 60px;
+  }
+  .boxes {
+    display: grid;
+  }
+  .box2 {
+    margin-left: 50px;
+  }
+  .margin {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  .margin1 {
+    margin: 15px;
+  }
+  .size {
+    width: 290px;
+    height: 150px;
+  }
+  .middle {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+  }
+  .images {
+    display: grid;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .img1 {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .part {
+    display: float;
+    margin-left: 60px;
+  }
+  .boxes {
+    display: float;
+  }
+  .box2 {
+    margin-left: 50px;
+  }
+
+  .images {
+    display: float;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+}
